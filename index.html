@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavik's Portfolio</title>
+    <meta name="description" content="Bhavik Portfolio Work">
+    <meta name="keywords" content="PHP, Wordpress, HTML5, CSS3, JavaScript, AJAX, jQuery">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+
+    <!-- Gallery Shortcodes -->
+    <link rel="stylesheet" href="assets/css/shortcodes.css">
+
+    <!-- Font Awesome CSS -->
+    <link href="assets/css/all.min.css" rel="stylesheet" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <span id="follower"></span>
+
+    <!-- Preloader: Start -->
+    <div class="loader">
+        <div id="spinner-five"></div>
+    </div>
+    <!-- Preloader: End -->
+
+    <!-- Audio: Start -->
+
+    <audio id="ham-tick" src="assets/audio/tick.mp3" preload="auto"></audio>
+
+    <!-- Audio: End -->
+
+    <!-- Header:Start -->
+
+    <header class="header-clip">
+        <div class="custom-container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+
+                <a class="navbar-brand" href="index-2.html">
+                    <img src="assets/images/bhavik.jpg" alt="Logo">
+                </a>
+
+                <button class="navbar-toggler d-block" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg class="ham hamRotate hams" viewBox="0 0 100 100" width="60">
+                        <path class="line top"
+                            d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+                        <path class="line middle" d="m 70,50 h -40" />
+                        <path class="line bottom"
+                            d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse d-block" id="navbarText">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#follower" data-toggle="collapse" data-target=".navbar-collapse.show">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about" data-toggle="collapse" data-target=".navbar-collapse.show">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work" data-toggle="collapse" data-target=".navbar-collapse.show">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" data-toggle="collapse" data-target=".navbar-collapse.show">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Header: End -->
+
+    <!-- Intro: Start -->
+
+    <section class="intro-section" id="about">
+        <div class="custom-container">
+            <div class="section-head">
+                <h1>I'm Bhavik Chudasama <b>a PHP/WordPress Developer.</b></h1>
+                <!-- <div class="intro-btns">
+                    <a href="contact.html" class="btn btn-blue">Contact</a>
+                    <a href="about.html" class="btn btn-link">Learn More</a>
+                </div> -->
+
+            </div>
+
+            <div class="hero-social" id="contact">
+                <ul class="d-flex">
+                    <li class="flex-fill">
+                        <a href="https://www.facebook.com/bhavik.d.chudasama/" class="ease-3" target="_blank">
+                            <i class="fab fa-facebook-f ease-3"></i>
+                            <span>Facebook</span>
+                        </a>
+                    </li>
+                    <li class="flex-fill">
+                        <a href="https://www.instagram.com/bhavu.chudasama/" class="ease-3" target="_blank">
+                            <i class="fab fa-instagram ease-3"></i>
+                            <span>instagram</span>
+                        </a>
+                    </li>
+                    <li class="flex-fill">
+                        <a href="https://www.linkedin.com/in/bhavik-chudasama" class="ease-3" target="_blank">
+                            <i class="fab fa-linkedin ease-3"></i>
+                            <span>linkedIn</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Intro: End -->
+
+
+    <!-- Gallery Layout -->
+    <div class="gallery-alt-layout" id="work">
+        <div class="container">
+            <div class="row">
+                <div class="flat-project flat-animation" data-animation="fadeInDown" data-animation-delay="0"
+                    data-animation-offset="75%">
+                    <div class="controlnav-folio">
+                        <div class="projects-filter-toggler">
+                        <span>Toggle Filter</span>
+                        </div>
+                    </div>
+                    <!-- <div class="controlnav-folio">
+                        <a class="projects-filter-toggler">
+                            <span>Toggle Filter</span>
+                        </a>
+                        <ul class="project-filter">
+                            <li class="active"><a data-filter="*" href="#">All</a></li>
+                            <li><a data-filter=".design" href="#">Design</a></li>
+                            <li><a data-filter=".handmade" href="#">Handmade</a></li>
+                            <li><a data-filter=".startup" href="#">Startup</a></li>
+                            <li><a data-filter=".photography" href="#">Photography</a></li>
+                        </ul>
+                    </div> -->
+                    <div class="project-wrap three-columns ">
+                        <div class="entry project-item design">
+                            <div class="item-wrap">
+                                <div class="project-thumb">
+                                    <a href="https://www.leafly.de/" target="_blank">
+                                        <img src="assets/images/leaflyde.png" alt="image">
+                                    </a>
+                                </div>
+                                <div class="project-info">
+                                    <div class="project-info-wrap">
+                                        <h3 class="project-title">
+                                            <a href="https://www.leafly.de/" target="_blank">Leafly - Das Wissensportal über Cannabis als Medizin</a>
+                                        </h3>
+                                        <!-- <ul class="project-categories">
+                                            <li><a href="#">Design</a></li>
+                                        </ul> -->
+                                    </div>
+                                </div>
+                            </div><!-- /.item-wrap -->
+                        </div><!-- /.project-item -->
+                        <div class="entry project-item design handmade startup">
+                            <div class="item-wrap">
+                                <div class="project-thumb">
+                                    <a href="https://theblessedseed.com/" target="_blank">
+                                        <img src="assets/images/theblessedseeds.png" alt="image">
+                                    </a>
+                                </div>
+                                <div class="project-info">
+                                    <div class="project-info-wrap">
+                                        <h3 class="project-title">
+                                            <a href="https://theblessedseed.com/" target="_blank">The Blessed Seed - Black Seed Oil</a>
+                                        </h3>
+                                        <!-- <ul class="project-categories">
+                                            <li><a href="#">Design</a></li>
+                                            <li><a href="#">Handmade</a></li>
+                                            <li><a href="#">Startup</a></li>
+                                        </ul> -->
+                                    </div>
+                                </div>
+                            </div><!-- /.item-wrap -->
+                        </div><!-- /.project-item -->
+                        <div class="entry project-item photography">
+                            <div class="item-wrap">
+                                <div class="project-thumb">
+                                    <a href="https://legre.com/" target="_blank">
+                                        <img src="assets/images/Legre.png" alt="image">
+                                    </a>
+                                </div>
+                                <div class="project-info">
+                                    <div class="project-info-wrap">
+                                        <h3 class="project-title">
+                                            <a href="https://legre.com/" target="_blank">Legre Eyewear - A New Frame of Mind</a>
+                                        </h3>
+                                        <!-- <ul class="project-categories">
+                                            <li><a href="#">Photography</a></li>
+                                        </ul> -->
+                                    </div>
+                                </div>
+                            </div><!-- /.item-wrap -->
+                        </div><!-- /.project-item -->
+                    </div><!-- /.project-wrap -->
+                </div><!-- /.flat-project -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div>
+
+    <!-- Footer: Start -->
+
+    <footer>
+        <div class="custom-container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="copyright">
+                        <p>Made by Bhavik Chudasama</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-social text-right">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="https://www.facebook.com/bhavik.d.chudasama/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.instagram.com/bhavu.chudasama/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/bhavik-chudasama" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer: End -->
+    <a class="go-top show">
+    </a>
+
+    <!-- Jquery and Bootstrap -->
+    <script src="assets/js/plugins.js"></script>
+
+    <script type="text/javascript" src="assets/js/jquery.isotope.min.js"></script>
+
+    <script type="text/javascript" src="assets/js/jquery.easing.js"></script>
+
+    <!-- Custom scripts -->
+    <script src="assets/js/custom.js"></script>
+
+</body>
+</html>
