@@ -591,7 +591,7 @@ header.header-fixed {
 	fill: none;
 	transition: stroke-dasharray .4s, stroke-dashoffset .4s;
 	stroke: #000;
-	stroke-width: 2.5;
+	stroke-width: 4.5;
 	stroke-linecap: round
 }
 
